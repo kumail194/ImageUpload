@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: ../DockerSetup/frontend.dockerFile
+    ports:
+      - "8001:8001"
+  backend:
+    build:
+      context: ./backend
+      dockerfile: ../DockerSetup/backend.dockerFile
+    ports:
+      - "3001:3001"
