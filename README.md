@@ -4,8 +4,8 @@
 
 2. Use command `docker-compose up`
 
-3. Access app on browser by  `http://localhost:8081`
-      Front end is runing on port `8081` & backend is running at port `3001`
+3. Access app on browser by  `http://localhost:8001`
+      Front end is runing on port `8001` & backend is running at port `3001`
 
 4. Following is a sample 
 
